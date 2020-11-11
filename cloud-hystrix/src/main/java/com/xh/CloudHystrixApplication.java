@@ -2,13 +2,12 @@ package com.xh;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
-public class CloudProducerApplication {
+public class CloudHystrixApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CloudProducerApplication.class, args);
+		SpringApplication.run(CloudHystrixApplication.class, args);
 	}
 
 }
