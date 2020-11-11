@@ -10,4 +10,4 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://${eureka.instance.hostname}:7001/eureka/
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/ # http://${eureka.instance.hostname}:7001/eureka/
