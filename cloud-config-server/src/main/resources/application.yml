@@ -9,7 +9,13 @@ spring:
           search-paths: master # git仓库地址下的相对地址，可以配置多个，用,分割。
           username: halo-xh
           password: 159821Xh--
-#        native:
+#        native:  # local option
 #          searchLocations: file:D:/properties/
 server:
   port: 12000
+
+# 注册到eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7000/eureka/
