@@ -20,6 +20,8 @@
         <module>cloud-server2</module>
         <module>cloud-customer</module>
         <module>cloud-producer</module>
+        <module>cloud-turbine</module>
+        <module>cloud-hystrix-dashboard</module>
     </modules>
 
     <properties>
