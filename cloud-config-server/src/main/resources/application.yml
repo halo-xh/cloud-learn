@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/halo-xh/cloud-config.git  # 配置git仓库的地址
+          search-paths: master # git仓库地址下的相对地址，可以配置多个，用,分割。
+          username: halo-xh
+          password: 159821Xh--
+#        native:
+#          searchLocations: file:D:/properties/
+server:
+  port: 12000
