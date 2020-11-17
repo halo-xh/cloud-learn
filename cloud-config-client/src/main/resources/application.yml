@@ -16,9 +16,13 @@ spring:
       discovery:
         enabled: true
         service-id: config-server
+    bus:
+      trace:
+        enabled: true
+      enabled: true
 
 # 注册到eureka
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:7000/eureka/
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:7000/eureka/

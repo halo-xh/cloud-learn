@@ -11,6 +11,15 @@ spring:
           password: 159821Xh--
 #        native:  # local option
 #          searchLocations: file:D:/properties/
+    bus:
+      enable: true
+      trace:
+        enable: true
+    stream:
+      rabbit:
+        binder:
+          brokers: 127.0.0.1
+          defaultBrokerPort: 8092
 server:
   port: 12000
 
@@ -19,3 +28,9 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:7000/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh

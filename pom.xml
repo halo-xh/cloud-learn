@@ -23,6 +23,7 @@
         <module>cloud-turbine</module>
         <module>cloud-hystrix-dashboard</module>
         <module>cloud-config-server</module>
+        <module>cloud-api-gateway</module>
     </modules>
 
     <properties>
