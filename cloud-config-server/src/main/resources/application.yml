@@ -8,7 +8,7 @@ spring:
           uri: https://github.com/halo-xh/cloud-config.git  # 配置git仓库的地址
           search-paths: master # git仓库地址下的相对地址，可以配置多个，用,分割。
           username: halo-xh
-          password: 159821Xh--
+          password:
 #        native:  # local option
 #          searchLocations: file:D:/properties/
     bus:
